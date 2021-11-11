@@ -1,27 +1,3 @@
-let A = {
-  day: "Thursday",
-  event: "Diwali",
-};
-
-let B = {
-  day: "Thursday",
-  event: "Bhaifota",
-};
-
-let D = {
-  day: "Thursday",
-  event: "Diwali",
-};
-
-let E = {
-  time: "9pm",
-};
-
-let C = {
-  day: "friday",
-  time: "9pm",
-};
-
 function deepCheck(objOne, objTwo) {
   // * grab the keys array
   let objOneKeys = Object.keys(objOne);
@@ -34,23 +10,23 @@ function deepCheck(objOne, objTwo) {
   // * else keys length are same
   else {
     if (objOneKeys.length === objTwoKeys.length) {
-      console.log("length same");
-
       for (i in objOneKeys) {
-        // * check if keys are same
-        if (objOneKeys[i] === objTwoKeys[i]) {
-          proceed = true;
+        let valueSetOne = objOne[objOneKeys[i]];
+        let valueSetTwo = objTwo[objTwoKeys[i]];
+
+        // * check if keys are same and their values
+        if (objOneKeys[i] === objTwoKeys[i] && valueSetOne === valueSetTwo) {
+          result = true;
         } else {
-          proceed = false;
-          return proceed;
+          // * if keys are not same return false
+          result = false;
         }
       }
-      if (proceed) {
-        console.log("proceeding to next step check vals");
-      }
+
+      return result;
     }
   }
 }
 
-let checkResult = deepCheck(A, C);
+let checkResult = deepCheck(A, D);
 console.log(checkResult);
