@@ -29,7 +29,8 @@ let devTwo = {
 console.log(dev === devTwo); // False
 ```
 
-- While it makes sense why the result of comparison is false, beacuse essentially the two bindings are pointing at two different address values, although the values are same - **_they are not stored at the same memory address._**
+- While it makes sense why the result of the FIRST comparison is false because essentially the two bindings are pointing at two different address values, although the intrinsic values of the objects are the same, **they are not stored at the same memory address.**
+  _AND THE BINDINGS ARE HOLDING/POINTING TOWARDS THE RESPECTIVE MEMORY ADDRESSES._
 
 - This shallow comparison is often useful in realizing whether the objects are stored at the same memory address, but they don't let us check if the contents encapsulated inside them are the same.
 
