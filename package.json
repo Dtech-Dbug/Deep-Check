@@ -1,0 +1,20 @@
+{
+  "name": "deep-check",
+  "version": "1.0.0",
+  "description": "Deep Check to compare contents of Objects as opposed to just Identity Checking.  Feature add to JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dtech-Dbug/Deep-Check.git"
+  },
+  "keywords": [],
+  "author": "Dtech-Dbug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dtech-Dbug/Deep-Check/issues"
+  },
+  "homepage": "https://github.com/Dtech-Dbug/Deep-Check#readme"
+}
