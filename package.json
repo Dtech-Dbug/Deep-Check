@@ -1,6 +1,6 @@
 {
   "name": "deep-check-objects",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Deep Check to compare contents of Objects as opposed to just Identity Checking.  Feature add to JavaScript.",
   "main": "index.js",
   "scripts": {
