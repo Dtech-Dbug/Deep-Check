@@ -2,8 +2,13 @@ function deepCheckObjects(objOne, objTwo) {
   // * grab the keys array
   let objOneKeys = Object.keys(objOne);
   let objTwoKeys = Object.keys(objTwo);
-  let proceed;
   let result;
+
+  // ** case : two empty objects passed
+
+  if (objOneKeys.length === 0 && objTwoKeys.length === 0) {
+    return false;
+  }
 
   // * different key length means unequal contents
   if (objOneKeys.length !== objTwoKeys.length) return false;
