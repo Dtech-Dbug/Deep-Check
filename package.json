@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/Dtech-Dbug/Deep-Check.git"
   },
-  "keywords": [],
+  "keywords": [
+    "JavaScript",
+    "npm"
+  ],
   "author": "Dtech-Dbug",
   "license": "ISC",
   "bugs": {
