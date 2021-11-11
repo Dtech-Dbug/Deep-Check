@@ -1,4 +1,4 @@
-# Deep-Check
+# deep-check-objects
 
 Deep Check to compare contents of Objects as opposed to just Identity Checking. Feature add to JavaScript.
 
@@ -33,7 +33,7 @@ console.log(dev === devTwo); // False
 
 - This shallow comparison is often useful in realizing whether the objects are stored at the same memory address, but they don't let us check if the contents encapsulated inside them are the same.
 
-## deep-check pakage 📦
+## deep-check-objects pakage 📦
 
 - This is an abstraction to very simply check whether the contents of objects are the same, skipping the tedious lines of codes.
 
@@ -41,16 +41,16 @@ console.log(dev === devTwo); // False
 
 1. Install using npm
 
-` npm i deep-check`
+` npm i deep-check-objects`
 
 2. Setting up
 
 ```js
 // commonjs module
-const deepCheckObjects = require("deep-check");
+const deepCheckObjects = require("deep-check-objects");
 
 //es6 import syntax
-import deepCheckObjects from "deep-check";
+import deepCheckObjects from "deep-check-objects";
 ```
 
 ### Usage
