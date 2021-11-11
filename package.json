@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Dtech-Dbug/Deep-Check/issues"
   },
-  "homepage": "https://github.com/Dtech-Dbug/Deep-Check#readme"
+  "homepage": "https://github.com/Dtech-Dbug/Deep-Check#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
