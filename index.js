@@ -1,4 +1,4 @@
-function deepCheck(objOne, objTwo) {
+function deepCheckObjects(objOne, objTwo) {
   // * grab the keys array
   let objOneKeys = Object.keys(objOne);
   let objTwoKeys = Object.keys(objTwo);
@@ -28,5 +28,4 @@ function deepCheck(objOne, objTwo) {
   }
 }
 
-let checkResult = deepCheck(A, D);
-console.log(checkResult);
+module.exports = deepCheckObjects;
